@@ -1,0 +1,19 @@
+##server
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+
+## spring
+spring:
+  data:
+    mongodb:
+      uri: mongodb://exam:12345@localhost:27017/exam?authSource=admin
+
+## logger
+logging:
+  level:
+    root: info
+    web: debug
+    com.example: debug
